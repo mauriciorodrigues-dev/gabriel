@@ -24,8 +24,8 @@ main {
     flex-wrap: wrap;
 }
 
-.card {
-    width: 200px;
+.card-refeicao {
+    width: 400px;
     height: 200px;
     border: 1px solid #ccc;
     display: flex;
@@ -35,4 +35,5 @@ main {
     text-align: center;
     border-radius: 5px;
     box-shadow: 3px 2px 8px #ccc;
+    display: flex;
 }
