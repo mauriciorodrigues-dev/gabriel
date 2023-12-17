@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
 }
 header, footer {
     width: 100%;
@@ -16,7 +18,7 @@ header, footer {
 }
 
 main {
-    height: 80vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,16 +26,27 @@ main {
     flex-wrap: wrap;
 }
 
-.card-refeicao {
-    width: 400px;
-    height: 200px;
+.card-tabela {
     border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 3px 2px 8px #ccc;
+    margin: 10px;
+    min-width: 200px;
+    min-height: 150px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px #ccc;
+}
+
+.title {
+    background-color: rgb(0, 217, 255);
+    color: #080808;
+    width: 100%;
+    padding: 5px;
+}
+
+.card-tabela table th {
+    border-bottom: 1px solid #555;
+    text-align: center;
 }
