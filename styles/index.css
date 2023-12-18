@@ -17,13 +17,28 @@ header, footer {
     align-items: center;
 }
 
+header h1 {
+    font-size: 2em;
+}
+
 main {
     min-height: 80vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+    
+    
 }
 
 .card-tabela {
@@ -31,7 +46,7 @@ main {
     text-align: center;
     border-radius: 5px;
     margin: 10px;
-    min-width: 300px;
+    min-width: 270px;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -41,7 +56,7 @@ main {
 
 .title {
     background-color: rgb(5, 116, 136);
-    color: #080808;
+    color: #e3f307;
     width: 100%;
     padding: 5px;
     border-top-right-radius: 5px;
@@ -61,4 +76,17 @@ main {
 .substituicao {
     font-weight: bold;
     color: red;
+}
+
+
+
+@media (max-width: 1000px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
 }
