@@ -36,6 +36,7 @@ main {
     width: 50%;
     height: 100%;
     flex-wrap: wrap;
+    margin: 0 auto;
     /* border: 1px solid; */
     
     
